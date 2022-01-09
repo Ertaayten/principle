@@ -3,7 +3,7 @@ package entities;
 import java.util.ArrayList;
 
 public class Person {
-
+    /* Thıs class keep persons fingerprints*/
     private String fingerPrint;
     private ArrayList<String> peopleFingerPrints;
 

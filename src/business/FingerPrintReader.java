@@ -9,6 +9,7 @@ public class FingerPrintReader extends BaseReader{
     Person person = new Person("ABC");
 
     public void isMatches(String fingerPrint){
+        /* Thıs method provıdes to compare ıs fınger prints matches*/
         person.add();
         System.out.println("FingerPrint is checking. ");
         for(int i=0; i<person.peopleFingerPrints().size();i++){

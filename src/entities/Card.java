@@ -6,7 +6,7 @@ public class Card {
     private String name;
     private int age;
     private String Tckn;
-
+    /* Thıs class keep persons card attributes*/
     public Card(int id, String name, int age, String tckn) {
         this.id = id;
         this.name = name;

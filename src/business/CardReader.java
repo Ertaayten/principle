@@ -15,6 +15,7 @@ public class CardReader extends BaseReader{
         cards.add(card);
     }
     public void isMatches(int id,String tckn){
+        /* Thıs method provıdes to compare ıs card matches*/
         System.out.println("Card is checking. ");
         for(int i = 0;i<cards.size(); i++){
             if(cards.get(i).getId()==id && cards.get(i).getTckn()==tckn){
